@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/images/Logo.svg";
 import { XMarkIcon } from '@heroicons/react/24/outline';
