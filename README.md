@@ -62,5 +62,64 @@ Install React Router, use one of the following commands:
 Once the installation is complete, run this command to start the development server:
 	-	`yarn dev`
 
-```
-[https://react-xo-game-orcin.vercel.app/]
+# Step 2 : How to design programs and algorithms used
+
+### Home
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/29cd2029-f53c-4944-a621-e3554958fa52" alt="Home">
+</div>
+
+#
+
+### Game
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/41e6e498-00a6-4786-881d-05f1b143181d" alt="Home">
+</div>
+
+#
+
+### CheckWinner
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4a50a662-8727-49b3-ae98-9684918c36f6" alt="Home">
+  
+#
+
+### BoardControls
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a7706476-7d0a-4794-b3e9-5a54355394fd" alt="Home">
+  
+  #
+  
+### History
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dd0a0ec5-5f74-428a-b976-08a670492ef3" alt="Home" >
+
+# Firebase Data
+This project uses **Firebase Firestore** to store game history. Each completed game is saved in the `gameHistory` collection with the following data:
+-   **`round`**: The game number (auto-incremented).
+-   **`boardState`**: The final state of the Tic-Tac-Toe board.
+-   **`winner`**: `"Player"`, `"AI"`, or `null` (for a draw).
+-   **`playerMoves` / `aiMoves`**: The number of moves made by each side.
+-   **`timestamp`**: The date and time when the game ended.
+-   **`isFinished`**: `true` when the game is complete.
+
+ **How It Works**:
+
+1.  When a game ends, the data is automatically saved to Firestore.
+2.  Players can view past game history for replay or analysis.
+# AI Opponent (Random Move AI)
+The AI in this Tic-Tac-Toe game uses a **Random Move AI** strategy. It follows these steps:
+
+1.  **Find empty cells:** The AI looks for all available empty spaces on the board.
+    
+2.  **Select a move randomly:** It picks a random available cell to place its mark (`X` or `O`).
+    
+3.  **Check for a winner:** If the move results in a win, the game ends.
+    
+4.  **Switch turn:** If no one wins, the turn passes back to the player.
+
+
+#  Try It Out! (Free to Play)
+I have brought XO game to **Vercel + Firebase**  You can play online without setting up.
+**Play now:** [React XO Game](https://react-xo-game-orcin.vercel.app/)
+ **Note:** The Firebase database has usage limitations, but you can still enjoy the game.
