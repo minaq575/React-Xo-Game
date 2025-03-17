@@ -73,26 +73,29 @@ Once the installation is complete, run this command to start the development ser
 
 ### Game
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/41e6e498-00a6-4786-881d-05f1b143181d" alt="Home">
+  <img src="https://github.com/user-attachments/assets/41e6e498-00a6-4786-881d-05f1b143181d" alt="Game">
 </div>
 
 #
 
 ### CheckWinner
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4a50a662-8727-49b3-ae98-9684918c36f6" alt="Home">
-  
+  <img src="https://github.com/user-attachments/assets/4a50a662-8727-49b3-ae98-9684918c36f6" alt="CheckWinner">
+</div>
+
 #
 
 ### BoardControls
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a7706476-7d0a-4794-b3e9-5a54355394fd" alt="Home">
-  
-  #
+  <img src="https://github.com/user-attachments/assets/a7706476-7d0a-4794-b3e9-5a54355394fd" alt="BoardControls">
+</div>
+
+#
   
 ### History
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/dd0a0ec5-5f74-428a-b976-08a670492ef3" alt="Home" >
+  <img src="https://github.com/user-attachments/assets/dd0a0ec5-5f74-428a-b976-08a670492ef3" alt="History" >
+</div>
 
 # Firebase Data
 This project uses **Firebase Firestore** to store game history. Each completed game is saved in the `gameHistory` collection with the following data:
@@ -121,5 +124,7 @@ The AI in this Tic-Tac-Toe game uses a **Random Move AI** strategy. It follows t
 
 #  Try It Out! (Free to Play)
 I have brought XO game to **Vercel + Firebase**  You can play online without setting up.
+
 **Play now:** [React XO Game](https://react-xo-game-orcin.vercel.app/)
+
  **Note:** The Firebase database has usage limitations, but you can still enjoy the game.
