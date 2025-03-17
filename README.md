@@ -100,7 +100,7 @@ Once the installation is complete, run this command to start the development ser
 # Firebase Data
 This project uses **Firebase Firestore** to store game history. Each completed game is saved in the `gameHistory` collection with the following data:
 -   **`round`**: The game number (auto-incremented).
--   **`boardState`**: The final state of the Tic-Tac-Toe board.
+-   **`boardState`**: The final state of the Tic-Tac-Toe (XO) board.
 -   **`winner`**: `"Player"`, `"AI"`, or `null` (for a draw).
 -   **`playerMoves` / `aiMoves`**: The number of moves made by each side.
 -   **`timestamp`**: The date and time when the game ended.
@@ -111,7 +111,7 @@ This project uses **Firebase Firestore** to store game history. Each completed g
 1.  When a game ends, the data is automatically saved to Firestore.
 2.  Players can view past game history for replay or analysis.
 # AI Opponent (Random Move AI)
-The AI in this Tic-Tac-Toe game uses a **Random Move AI** strategy. It follows these steps:
+The AI in this Tic-Tac-Toe (XO) game uses a **Random Move AI** strategy. It follows these steps:
 
 1.  **Find empty cells:** The AI looks for all available empty spaces on the board.
     
