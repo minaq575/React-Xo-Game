@@ -47,20 +47,20 @@ To clone the project, open your terminal and run the following command:
 Open your terminal and run the following command to install dependencies:
 	-	`yarn`
 3. Install @heroicons/react  
-If you need Heroicons for icons in your project, run:
+For icons in the project, run:
 	-	`yarn add @heroicons/react`
 4. Install Firebase SDK
-If you plan to use Firebase, install it with either npm or yarn:
+Firebase will be used as the database storage. Install with npm or yarn:
 - **npm**:
 	-	`npm install firebase`
 - **yarn**:
 	-	`yarn add firebase`
 5. Install React Router
-To install React Router, use one of the following commands:
-`yarn add react-router-dom@^7.3.0`
+Install React Router, use one of the following commands:
+	-	`yarn add react-router-dom@^7.3.0`
 6.  Start the Development Server
 Once the installation is complete, run this command to start the development server:
-	`yarn dev`
+	-	`yarn dev`
 
 ```
 [https://react-xo-game-orcin.vercel.app/]
